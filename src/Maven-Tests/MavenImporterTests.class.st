@@ -16,7 +16,7 @@ model
 "
 Class {
 	#name : #MavenImporterTests,
-	#superclass : #PAIAAbstractImporterTestCase,
+	#superclass : #MAMAbstractImporterTestCase,
 	#instVars : [
 		'importer',
 		'rootFolder',
@@ -52,7 +52,7 @@ MavenImporterTests >> filePomSub2 [
 { #category : #mockery }
 MavenImporterTests >> fileSystemMockInMemory [
 	fileSystemMock := FileSystem memory.
-	self
+	self 
 		createDirectory: '/root';
 		createDirectory: '/root/sub';
 		createDirectory: '/root/sub2';
