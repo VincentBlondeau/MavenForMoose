@@ -4,11 +4,11 @@ A MavenXMLRetriver is a finder of pom.xml.
 "
 Class {
 	#name : #MavenXMLRetriver,
-	#superclass : #PAIAAbstractFilesRetriever,
+	#superclass : #MAMAbstractFilesRetriever,
 	#category : #'Maven-Importer'
 }
 
 { #category : #accessing }
 MavenXMLRetriver >> fileName [
-	^ 'pom.xml'
+	^ 'pom.xml' 
 ]

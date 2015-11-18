@@ -12,7 +12,7 @@ model
 "
 Class {
 	#name : #MavenContainmentResolver,
-	#superclass : #PAIAAbstractModelOperator,
+	#superclass : #MAMAbstractModelOperator,
 	#category : #'Maven-Importer'
 }
 

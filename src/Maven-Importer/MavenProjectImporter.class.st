@@ -14,7 +14,7 @@ rootFolder
 "
 Class {
 	#name : #MavenProjectImporter,
-	#superclass : #PAIAAbstractFileImporterInModel,
+	#superclass : #MAMAbstractFileImporterInModel,
 	#category : #'Maven-Importer'
 }
 

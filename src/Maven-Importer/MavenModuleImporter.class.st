@@ -10,7 +10,7 @@ model
 "
 Class {
 	#name : #MavenModuleImporter,
-	#superclass : #PAIAAbstractXMLImporterInModel,
+	#superclass : #MAMAbstractXMLImporterInModel,
 	#category : #'Maven-Importer'
 }
 
@@ -195,7 +195,7 @@ MavenModuleImporter >> ensureIsNotMandatory: aBlock [
 
 { #category : #searching }
 MavenModuleImporter >> findElementNamed: anElementName in: anXMLDocument [
-	^ (anXMLDocument firstElement elementAt: anElementName ifAbsent: [ MavenNotFound signalFor: anElementName ]) nodes
+	^ (anXMLDocument firstElement elementAt: anElementName ifAbsent: [ MavenNotFound signalFor: anElementName ]) nodes 
 ]
 
 { #category : #accessing }
